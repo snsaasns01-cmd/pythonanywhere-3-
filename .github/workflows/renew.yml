@@ -92,4 +92,4 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin ${{ github.ref_name }}
 
-          echo "❌ Failure logged and committed"
+          echo "❌ Failure logged and committed" 
